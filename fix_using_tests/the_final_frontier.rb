@@ -1,4 +1,5 @@
 # don't forget to add: require 'pry'
+
 require 'pry'
 
 def generate_star_date
@@ -15,6 +16,7 @@ end
 def engage
   puts state_log(date)
   date = generate_star_date
+end
   binding.pry
   puts 'hello'
 end
